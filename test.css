@@ -14,7 +14,7 @@ justify-content:center;
 .card {
     width: 200px;
     height: 250px;
-    background-color: rgb(242, 173, 173);
+    background-color: white;
     text-align:center;
     margin: 50px;
     padding: 20px 30px;
@@ -52,10 +52,16 @@ background-color: rgb(237, 65, 13);
 .bb {
     position: absolute;
     top: 12px;
-    right:20px;
+    right:25px;
+    color: red;
     border: 2px solid black;
-    border-radius:50px;
-background-color: aqua;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+background-color: rgb(243, 244, 244);
+display: flex;
+justify-content: center;
+align-items: center;
 } 
 #ee{
     color: white;
